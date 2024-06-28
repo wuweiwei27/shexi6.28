@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/nav.css">
+    <style>
+        /* ----------------------------------nav  */
+        .shell {
+            background-color:rgb(252, 247, 238);
+            width: 100xw;
+        }
+
+        .shell .img {
+            width: 100vw;
+            height: 80vh;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+        }
+
+        .shell .img .text {
+            width: 80%;
+            font-size: 150%;
+            font-weight: bold;
+            margin: auto auto;
+            text-align: center;
+        }
+
+        .shell .gap {
+            width: 100vw;
+            height: 20vh;
+            background-color: rgb(252, 247, 238);
+            color: black;
+            line-height: 100px;
+            text-align: center;
+            /* display: flex; */
+        }
+
+        .gap .text {
+            font-size: 1.5em;
+        }
+
+        @media screen and (max-width: 600px) {
+            .nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav .logo {
+                width: 50vw;
+                height: 50px;
+            }
+
+            .nav .menu {
+                width: 100%;
+                font-size: 1em;
+            }
+
+            .shell .gap {
+                height: 10vh;
+                /* font-size: 1em; */
+            }
+
+            .shell .gap .text {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <audio src="../assets/music/index_bgm.mp3"></audio>
+    <div class="nav">
+        <a href="htmlluxunjianjie.html">
+            <div class="logo"
+                style="background-image: url('../img/小房子.png');">
+            </div>
+        </a>
+        <div class="menu">
+            <ul>
+                <!-- <li>鲁迅介绍</li>
+                <li>社戏品读</li>
+                <li>思想感悟</li>
+                <li>知识回顾</li> -->
+
+            </ul>
+            <ul>
+                <a href="">
+                    <li>鲁迅介绍</li>
+                </a><a href="">
+                    <li>社戏品读</li>
+                </a><a href="html/luxunjianjie.html">
+                    <li>思想感悟</li>
+                </a><a href="">
+                    <li>知识回顾</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="shell">
+        <div class="img"
+            style="background-image: url('../img');">
+            <div class="text">
+                <font color="black" size="8" >鲁迅名言<br/>名言1</font>  </div>
+        </div>
+        <div class="gap">
+            <div class="text">
+                <h1>段落</h1>
+            </div>
+        </div>
+        <div class="img"
+            style="background-image: url('../img');">
+            <div class="text">
+                介绍1<br/>
+</div>
+        </div>
+        <div class="gap">
+            <div class="text">
+                <h1>1</h1>
+            </div>
+        </div>
+        <div class="img"
+        style="background-image: url('../img');">
+            <div class="text">
+                段落1<br/>
+            </div>
+        </div>
+        <div class="gap">
+            <div class="text">
+                <h1>2</h1>
+            </div>
+        </div>
+        <div class="img"
+            style="background-image: url('../img');">
+            <div class="text">
+                段落2 </div>
+        </div>
+        <div class="gap">
+            <div class="text">
+                <h1>3</h1>
+            </div>
+        </div>
+        <div class="img"
+            style="background-image: url('../img');">
+            <div class="text">
+                段落3</div>
+        </div>
+        <div class="gap">
+            <div class="text">
+                <h1>4</h1>
+            </div>
+        </div>
+        <div class="img"
+            style="background-image: url('../img');">
+            <div class="text">
+                段落4</div>
+        </div>
+        <div class="gap">
+            <div class="text">
+                <h1>5</h1>
+            </div>
+        </div>
+        <div class="img"
+            style="background-image: url('../img');">
+            <div class="text">
+                段落5</div>
+        </div>
+        <div class="gap">
+            <div class="text">
+                <h1>名言2</h1>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+<script>
+    let audio = document.querySelector('audio');
+    audio.play();
+</script>
+
+</html>
